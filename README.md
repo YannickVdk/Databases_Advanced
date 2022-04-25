@@ -7,7 +7,7 @@ Download Ubuntu: (url: https://ubuntu.com/download/desktop)
 Zet Ubuntu op de VirtualBox met behulpt van deze link: (url: https://brb.nci.nih.gov/seqtools/installUbuntu.html)
 
 Download de Blockchain scraper: 
-  `DBA-Scraper.py`
+  `ScraperDBA.py`
 
 Open de terminal en voer volgend commando uit: 
   `sudo apt-get install python3-bs4`
