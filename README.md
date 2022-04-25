@@ -16,7 +16,7 @@ De file zal zich bevinden in downloads, verander je directory met volgend comman
   `cd Downloads/`
 
 Om de scraper te laten runnen voer het volgend commando uit: 
-  `python3 DBA-Scraper.py`
+  `python3 ScraperDBA.py`
 
 Om de scraper vroegtijdig te laten eindigen voer je  volgend commando uit:
   `Ctrl + c`
