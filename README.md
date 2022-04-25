@@ -21,4 +21,4 @@ Om de scraper te laten runnen voer het volgend commando uit:
 Om de scraper vroegtijdig te laten eindigen voer je  volgend commando uit:
   `Ctrl + c`
   
-Na het gebruiken van de scraper zal er een "logfile.txt" aangemaakt zijn in u bestanden hier kan u de waarden in een ".txt" bestand verder bekijken
+Na het gebruiken van de scraper zal er een "logfile.txt" aangemaakt zijn in u bestanden, hier kan u de waarden in een ".txt" bestand verder bekijken
