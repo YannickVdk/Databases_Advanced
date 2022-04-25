@@ -10,4 +10,6 @@ Download de Blockchain scraper: DBA-Scraper.py
 
 Open de terminal en voer volgend commando uit: sudo apt-get install python3-bs4
 
+De file zal zich bevinden in downloads, verander je directory met volgend commando: cd Downloads/
+
 Om het de scraper te laten runnen voer het volgend commando uit: python3 DBA-Scraper.py
