@@ -22,3 +22,5 @@ Om de scraper vroegtijdig te laten eindigen voer je  volgend commando uit:
   `Ctrl + c`
   
 Na het gebruiken van de scraper zal er een "logfile.txt" aangemaakt zijn in u bestanden, hier kan u de waarden in een ".txt" bestand verder bekijken
+
+Om de Mongo database te installeren voer volgend script uit "bash-script" dat zich bevindt in de "2. mongo" map.
