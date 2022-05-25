@@ -1,0 +1,25 @@
+LAUNCHING REDIS ON UBUNTU
+USE FOLLOWING COMMANDS
+
+Step 1: Install Redis
+	1. Start by updating the package repository:
+
+	sudo apt update
+
+	2. Then, install Redis with the command:
+
+	sudo apt install redis-server
+
+Step 2: Configure Redis
+
+	1. Once the installation is complete, modify the Redis configuration file. To do so, open the file with a 		text editor of your choice (we are using nano):
+
+	sudo nano /etc/redis/redis.conf
+
+	2. Next, find the line specifying the supervised directive. By default, this line is set to no. However, to 		manage Redis as a service, set the supervised directive to systemd (Ubuntu’s init system).
+
+	3. Save the changes and close the file.
+
+	4. Finally, restart the Redis service by running:
+
+	sudo systemctl restart redis.service

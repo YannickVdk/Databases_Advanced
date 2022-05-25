@@ -1,0 +1,40 @@
+INSTALLING & LAUNCHING DOCKER ON UBUNTU
+USE FOLLOWING COMMANDS
+
+1. Set up Docker’s package repository.
+	Set up the repository:
+	1. Update the apt package index and install packages to allow apt to use a repository over HTTPS:
+		sudo apt-get update
+ 		sudo apt-get install \
+		ca-certificates \
+		curl \
+		gnupg \
+		lsb-release
+	2. Add Docker’s official GPG key:
+	 	sudo mkdir -p /etc/apt/keyrings
+ 		curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+	3. Use the following command to set up the stable repository. To add the nightly or test repository, add the word nightly or 	   test (or both) 	   after the word stable in the commands below.:
+		 echo \
+  		"deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  		$(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+	Install Docker Engine:
+		1. Update the apt package index, and install the latest version of Docker Engine, containerd, and Docker Compose, or go to the next step to 		   install a specific version:
+			sudo apt-get update
+ 			sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+		
+
+2. Download latest DEB package from the release page.
+	Follow the steps in this link:
+	https://docs.docker.com/desktop/linux/install/ubuntu/
+
+3. Install the package with apt as follows:
+	sudo apt-get update
+ 	sudo apt-get install ./docker-desktop-<version>-<arch>.deb
+
+Launch Docker Desktop:
+	 systemctl --user start docker-desktop
+	
+For more information follow the link below:
+https://docs.docker.com/desktop/linux/install/ubuntu/
+
+

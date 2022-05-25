@@ -1,0 +1,3 @@
+sh imports_docker.sh
+python3 docker_scraper.py
+
