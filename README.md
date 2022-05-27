@@ -43,25 +43,34 @@ Als je vervolgens klaar bent met het downloaden en installeren van vorige applic
 `cd bestandslocatie`
 
 2 - het aanmaken van de `Mongo`, `Redis` en `Python` container:
+
 `docker run -d --name mongocontainer -p 24052:27017 mongo`
+
 `docker run -d --name rediscontainer -p 2405:6379 redis`
+
 `docker run -d -t --name pythoncontainer --network=host python`
 
 
 3 - lijst met alle actieve cotainers
+
 `docker ps`
 
 4 - onthoud het id van de pythoncontainer
 
 5 - kopieer de files naar de python container
+
 `docker cp docker_scraper.py container-ID:/.`
+
 `docker cp imports_docker.sh container-ID:/.`
 
 Ga nu naar je `docker.exe` terminal in de `python cotainer` en voer volgende commando's uit:
 
 1 - open de docker terminal van de python conatainer
+
 `ls`
 
 2 - activeer de volgende files (in de `docker.exe` terminal van de python container)
+
 `sh imports_docker.sh`
+
 `python3 docker_scraper.py`
