@@ -6,7 +6,7 @@ Download Ubuntu: (url: https://ubuntu.com/download/desktop)
 
 Zet Ubuntu op de VirtualBox met behulpt van deze link: (url: https://brb.nci.nih.gov/seqtools/installUbuntu.html)
 
-Deel 1: Scraper:
+`Deel 1: Scraper`
 
 Download de Blockchain scraper: 
   `ScraperDBA.py`
